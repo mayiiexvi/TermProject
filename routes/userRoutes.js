@@ -4,7 +4,6 @@ const router = express.Router();
 const userController = require('../controllers/userController');
 
 // Home page
-// Home page
 const redirectHome = (req, res, next) => {
     res.redirect('/home');
   };
